@@ -1,6 +1,6 @@
 pragma solidity >=0.8.9 <0.9.0;
 
-contract TeioNftToken is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract TeioNftToken is ERC721AQueryable, Ownable, ERC721ABurnable, ReentrancyGuard {
 
   using Strings for uint256;
 
